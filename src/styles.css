@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("tippy.js/dist/tippy.css");
+
+@import url("tippy.js/themes/material.css");

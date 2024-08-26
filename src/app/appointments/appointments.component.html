@@ -1,0 +1,13 @@
+<full-calendar [options]="calendarOptions" *ngIf="isLoaded">
+    <ng-template #eventContent let-arg>
+        <div class="fc-daygrid-event-dot" style="border-color: green;"></div>
+        <div style="display:inline;">
+            <div>
+                {{ arg.event.extendedProps.time }}&nbsp;<b>{{ arg.event.title }}</b>&nbsp;- {{ arg.event.extendedProps.firstName}}
+            </div>
+            <div>
+                Corte + Barba
+            </div>
+        </div>
+    </ng-template>
+</full-calendar>
